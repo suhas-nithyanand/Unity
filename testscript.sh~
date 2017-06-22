@@ -60,9 +60,6 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET
 #Retrieve a single project from the database [Case9: projectid and country not present, but enabled is False].
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:5000/requestproject?number=222\&keyword=sports
 
-#Retrieve a single project from the database [Case9: projectid and country not present, but projectUrl is null].
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:5000/requestproject?number=222\&keyword=sports
-
 # Additional cases which break the Rest web service, which is handled
 
 # Project ID not present

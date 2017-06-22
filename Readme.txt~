@@ -7,7 +7,8 @@
 - $ source flaskenv/bin/activate
 - we need to install flask: $ pip install flask flask-restful
 - $ python app.py
-- The server runs on port 5000 
+- The server runs on port 5000
+- and the rest service can be accessed 
 
 # logging
 
@@ -30,8 +31,5 @@
 - When projectID is not present and there are two or more projects with the same project cost which match with the given parameters.
   The first project which is found in database collection is returned.
 
-# Some Assumptions for which error handling is not performed
-- Input parameter expriedDate is expected to be in a certain format. Code is written only to handle that format.
--
    
 
